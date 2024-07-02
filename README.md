@@ -1,5 +1,5 @@
 
-# Email Sending Appl
+# Email Sending App
 
 
 
@@ -29,7 +29,7 @@ Frontend: NextJS
   POST /email/send
 ```
 
-This endpoint queues an email to be sent.
+This endpoint queues an email to be sent
 
 #### Request
 
@@ -38,9 +38,9 @@ This endpoint queues an email to be sent.
 - **Headers**:
   - `Content-Type: application/json`
 - **Body** (JSON):
-  - `email` (string, required): The recipient's email address.
-  - `subject` (string, required): The subject of the email.
-  - `body` (string, required): The body content of the email.
+  - `email` (string, required): The recipient's email address
+  - `subject` (string, required): The subject of the email
+  - `body` (string, required): The body content of the email
 
 **Example Request**:
 ```json
@@ -72,7 +72,7 @@ This endpoint queues an email to be sent.
   GET /email/messages?recipient={recipient}
 ```
 
-This endpoint retrieves emails for a specific recipient.
+This endpoint retrieves emails for a specific recipient
 
 #### Request
 
@@ -81,7 +81,7 @@ This endpoint retrieves emails for a specific recipient.
 - **Headers**:
   - `Content-Type: application/json`
 - **Query Parameters**:
-  - `recipient` (string, required): The recipient's email address.
+  - `recipient` (string, required): The recipient's email address
 
 **Example Request**:
 
@@ -92,7 +92,7 @@ This endpoint retrieves emails for a specific recipient.
 
 - **Status**: `200 OK`
 - **Body** (JSON):
-  - `emails` (array): A list of emails sent to the specified recipient.
+  - `emails` (array): A list of emails sent to the specified recipient
 
 **Example Response**:
 ```json
@@ -162,9 +162,9 @@ NEXT_PUBLIC_EMAIL_STATS_URL={Get url to query analytics data}
 
 ## Features
 
-- **Sending Emails**: To send an email, click on the navigation bar and fill out the email form.
+- **Sending Emails**: To send an email, click on the navigation bar and fill out the email form
 - **Analytics Dashboard**: Select dashboard from navigation menu to display statistics and metrics on sent emails
 
-- **Filtering**: Interact with the dashboard by selecting filters for day, week, or month to view relevant email statistics.
+- **Filtering**: Interact with the dashboard by selecting filters for day, week, or month to view relevant email statistics
 
 

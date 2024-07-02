@@ -68,6 +68,9 @@ This endpoint queues an email to be sent.
 ### Get Emails by Recipient
 
 #### GET /messages
+```http
+  GET /email/messages{recipient}
+```
 
 This endpoint retrieves emails for a specific recipient.
 

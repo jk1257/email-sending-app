@@ -69,7 +69,7 @@ This endpoint queues an email to be sent.
 
 #### GET /messages
 ```http
-  GET /email/messages{recipient}
+  GET /email/messages?recipient={recipient}
 ```
 
 This endpoint retrieves emails for a specific recipient.

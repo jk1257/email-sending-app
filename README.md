@@ -24,7 +24,6 @@ Frontend: NextJS
 
 ### Send Email to Recipient
 
-#### POST /send
 ```http
   POST /email/send
 ```
@@ -67,7 +66,7 @@ This endpoint queues an email to be sent
 
 ### Get Emails by Recipient
 
-#### GET /messages
+
 ```http
   GET /email/messages?recipient={recipient}
 ```

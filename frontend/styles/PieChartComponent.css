@@ -1,0 +1,43 @@
+/* components/PieChartComponent.css */
+
+.pie-chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-dropdown {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .chart-and-table {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .summary-table {
+    margin-left: 20px;
+  }
+  
+  .summary-table table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .summary-table th, .summary-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .summary-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  

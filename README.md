@@ -6,7 +6,7 @@
 
 Simple sending system with an API for users to send emails efficiently. Emails are managed through a task queue for optimized performance. The Next.js frontend provides a dashboard for users to view and filter analytics on sent emails by day, week, or month.
 
-Backend: NestJS, BullMQ, Sendgrid, Postgres, and Prisma
+Backend: NestJS, BullMQ, Sendgrid, Postgres, Prisma
 
 Frontend: NextJS
 ## External Documentation
@@ -161,7 +161,7 @@ NEXT_PUBLIC_EMAIL_STATS_URL={Get url to query analytics data}
 
 ## Features
 
-- **Sending Emails**: To send an email, click on the navigation bar and fill out the email form
+- **Sending Emails**: Select email from navigation menu and fill out the email form
 - **Analytics Dashboard**: Select dashboard from navigation menu to display statistics and metrics on sent emails
 
 - **Filtering**: Interact with the dashboard by selecting filters for day, week, or month to view relevant email statistics

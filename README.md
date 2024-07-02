@@ -165,5 +165,9 @@ NEXT_PUBLIC_EMAIL_STATS_URL={Get url to query analytics data}
 - **Analytics Dashboard**: Select dashboard from navigation menu to display statistics and metrics on sent emails
 
 - **Filtering**: Interact with the dashboard by selecting filters for day, week, or month to view relevant email statistics
+  
+## Screenshots
 
 
+<img width="987" alt="Email" src="https://github.com/jk1257/email-sending-app/assets/80533414/9bf29054-d7b9-4379-b11a-4eead6c34bec">
+<img width="985" alt="Dashboard" src="https://github.com/jk1257/email-sending-app/assets/80533414/c43dd320-92c1-4ec5-9c7f-1fcb32246756">
